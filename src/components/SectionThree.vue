@@ -40,7 +40,7 @@ export default defineComponent({
             return Number(inpPrice.value)+'.00';
         });
 
-        const increaseValue = (type:any) => {
+        const increaseValue = (type:string) => {
             if(type === "price"){
                 inpPrice.value++;
             } else {
@@ -48,7 +48,7 @@ export default defineComponent({
             }
         };
 
-        const decreaseValue = (type:any) => {
+        const decreaseValue = (type:string) => {
             if(type === "price"){
                 if (inpPrice.value > 1) {
                     inpPrice.value--;

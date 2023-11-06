@@ -6,11 +6,7 @@
 <script lang=ts>
 import * as echarts from 'echarts';
 import { defineComponent, onMounted } from 'vue';
-import { GridComponent } from 'echarts/components';
-import { CandlestickChart } from 'echarts/charts';
-import { CanvasRenderer } from 'echarts/renderers';
-
-
+/* eslint-disable */
 export default defineComponent({
     setup() {
         const initChart = () => {
